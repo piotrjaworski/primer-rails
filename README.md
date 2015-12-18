@@ -1,6 +1,7 @@
 # Primer for Rails
 
 Primer (Github's) CSS framework implemenation in Rails.
+More about Primer CSS framework you can find at the [official project page](http://primercss.io/).
 
 ## Installation
 
@@ -12,17 +13,13 @@ gem 'primer-rails'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install primer-rails
+    $ bundle install
 
 ## Usage
 
 Add this line to your application.css / application.scss file:
 
-```css
+```ruby
 *= require primer
 ```
 
